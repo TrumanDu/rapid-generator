@@ -1,0 +1,5 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+源代码: [http://rapid-framework.googlecode.com/svn/trunk/rapid-framework/generator/]
