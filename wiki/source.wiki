@@ -1,5 +1,4 @@
-#summary One-sentence summary of this page.
 
-= Introduction =
+= svn源代码地址 =
 
-源代码: [http://rapid-framework.googlecode.com/svn/trunk/rapid-framework/generator/]
+[http://rapid-framework.googlecode.com/svn/trunk/rapid-framework/generator/]
