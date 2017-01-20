@@ -16,29 +16,6 @@ exported from code.google.com/p/rapid-generator
   - 易于做二次开发,整个生成器本身就是java源代码,源代码核心十分精简,并且鼓励你修改代码,也可以作为任何语言的代码生成器
   - 配置简单,只有一个配置文件generator.properties
 
-具体使用请看
-**[在线文档说明](http://code.google.com/p/rapid-framework/wiki/rapid_generator)**
-
-
-本项目内置模板文件属于 rapid-framework 的一部分
-
-**[rapid-framework](http://code.google.com/p/rapid-framework)简单介绍:**
-
-rapid-framework是一个以spring为核心的项目脚手架(或者称为胶水框架)，框架将各个零散的框架(struts,strust2,springmvc,hibernate,ibatis,spring\_jdbc,flex)搭建好，并内置一个代码生成器，辅助项目开发,可以生成java的hibernat model,dao,manager,struts+struts2 action类,可以生成jsp的增删改查及列表页面
-
-
-**通常代码生成器存在的问题**
-
-二次开发困难,没有源码可以修改模板文件的model对象等
-
-过于智能,自动插入我们的项目中,程序员还需考虑旧的代码会不会被覆盖的问题
-
-生成文件的时候让你选要生成那些文件,
-
-而rapid只负责生成代码，这样生成器核心一分精简,没有将存放模板的目录名称及文件名称利用起来,导致还需配置每个模板文件生成的文件名,目录结构
-
-
-
 ## 生成器的运行
 
 ### 在eclipse中运行
@@ -186,4 +163,24 @@ UserInfoBaseDao : 自动生成的代码, 不能手工修改,用于重复生成 U
 
 语法参考: http://freemarker.sourceforge.net/docs/index.html
 
+具体使用请看
+**[在线文档说明](http://code.google.com/p/rapid-framework/wiki/rapid_generator)**
+
+
+本项目内置模板文件属于 rapid-framework 的一部分
+
+**[rapid-framework](http://code.google.com/p/rapid-framework)简单介绍:**
+
+rapid-framework是一个以spring为核心的项目脚手架(或者称为胶水框架)，框架将各个零散的框架(struts,strust2,springmvc,hibernate,ibatis,spring\_jdbc,flex)搭建好，并内置一个代码生成器，辅助项目开发,可以生成java的hibernat model,dao,manager,struts+struts2 action类,可以生成jsp的增删改查及列表页面
+
+
+**通常代码生成器存在的问题**
+
+二次开发困难,没有源码可以修改模板文件的model对象等
+
+过于智能,自动插入我们的项目中,程序员还需考虑旧的代码会不会被覆盖的问题
+
+生成文件的时候让你选要生成那些文件,
+
+而rapid只负责生成代码，这样生成器核心一分精简,没有将存放模板的目录名称及文件名称利用起来,导致还需配置每个模板文件生成的文件名,目录结构
 
